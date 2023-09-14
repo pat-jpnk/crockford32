@@ -1,9 +1,8 @@
 ## Description 
 
-An implementation of Crockford's Base32 encoding, including checksums. Intended for use on unique resource identifiers in APIs.
-Does not apply automatic conversions on decode input as described in "API Design Patterns" by JJ Geewax p.92.
+An implementation of [Crockford's Base32](https://www.crockford.com/base32.html) encoding, including checksums. Intended for use on unique resource identifiers in APIs. Does not apply automatic conversions on decode input as described in "[API Design Patterns](https://www.manning.com/books/api-design-patterns)" by JJ Geewax p.92.
 
-Created using [pybind11](https://github.com/pybind/pybind11) and [setuptools](https://pypi.org/project/setuptools/).
+Python bindings created using [pybind11](https://github.com/pybind/pybind11). Built with [setuptools](https://pypi.org/project/setuptools/), [manylinux](https://github.com/pypa/manylinux), [wheel](https://github.com/pypa/wheel) and [auditwheel](https://github.com/pypa/auditwheel).
 
 ## Usage 
 
@@ -25,7 +24,7 @@ b = cr32.encode(encode_input_two, True)
 
 *throws ValueError* - invalid input characters
 
-*throws ValueError* - invalid input characters 
+*throws ValueError* - invalid checksum (**requires checksum=True**)
 
 ```python
 import crockford32 as cr32

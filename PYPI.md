@@ -25,7 +25,7 @@ b = cr32.encode(encode_input_two, True)
 
 *throws ValueError* - invalid input characters
 
-*throws ValueError* - invalid input characters 
+*throws ValueError* - invalid checksum (**requires checksum=True**)
 
 ```python
 import crockford32 as cr32

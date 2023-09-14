@@ -12,7 +12,7 @@ with open('PYPI.md') as f:
 
 setup(
 name="crockford32",
-version="1.0.1",
+version="1.0.2",
 author="Patrick Japink",
 url="https://github.com/pat-jpnk/crockford32",
 author_email="jpnk.pat@gmail.com",

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: crockford32
-Version: 1.0.1
+Version: 1.0.2
 Summary: An implementation of Crockford's Base32 encoding for resource identifiers
 Home-page: https://github.com/pat-jpnk/crockford32
 Author: Patrick Japink
@@ -39,7 +39,7 @@ b = cr32.encode(encode_input_two, True)
 
 *throws ValueError* - invalid input characters
 
-*throws ValueError* - invalid input characters 
+*throws ValueError* - invalid checksum (**requires checksum=True**)
 
 ```python
 import crockford32 as cr32
