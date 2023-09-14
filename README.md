@@ -1,6 +1,7 @@
 ## Description 
 
-An implementation of Crockford's Base32 encoding, including checksums. Intendedjj for use on unique resource identifiers in APIs.
+An implementation of Crockford's Base32 encoding, including checksums. Intended for use on unique resource identifiers in APIs.
+Does not apply automatic conversions on decode input as described in "API Design Patterns" by JJ Geewax p.92.
 
 Created using [pybind11](https://github.com/pybind/pybind11) and [setuptools](https://pypi.org/project/setuptools/).
 
