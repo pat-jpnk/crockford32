@@ -12,7 +12,7 @@ Created using [pybind11](https://github.com/pybind/pybind11) and [setuptools](ht
 import crockford32 as cr32
 
 encode_input_one = "Hello"
-encode_input_two = "Tree
+encode_input_two = "Tree"
 
 try:
 	a = cr32.encode(encode_input_one)
