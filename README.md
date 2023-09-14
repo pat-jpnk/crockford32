@@ -34,12 +34,12 @@ decode_input_one = "91JPRV3F"
 decode_input_two = "AHS6AS8U"
 
 try:
-	a = cr32.encode(decode_input_one)
+	a = cr32.decode(decode_input_one)
 except ValueError:
 	pass    
 
 try:
-	b = cr32.encode(decode_input_two, True)
+	b = cr32.decode(decode_input_two, True)
 except ValueError:
 	pass    
 
