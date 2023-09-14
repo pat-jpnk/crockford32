@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/Crockford32.cpp
+src/Crockford32.h
+src/pybind11_wrapper.cpp
+src/crockford32.egg-info/PKG-INFO
+src/crockford32.egg-info/SOURCES.txt
+src/crockford32.egg-info/dependency_links.txt
+src/crockford32.egg-info/requires.txt
+src/crockford32.egg-info/top_level.txt
+test/test_cr32.py

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: crockford32
+Version: 1.0.0
+Summary: implementation of Crockford's Base32 encoding utilities
+Home-page: https://github.com/pat-jpnk/Crockford-Base32
+Author: Patrick Japink
+Author-email: jpnk.pat@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+README.md
+
