@@ -4,6 +4,7 @@ An implementation of [Crockford's Base32](https://www.crockford.com/base32.html)
 
 Python bindings created using [pybind11](https://github.com/pybind/pybind11). Built with [setuptools](https://pypi.org/project/setuptools/), [manylinux](https://github.com/pypa/manylinux), [wheel](https://github.com/pypa/wheel) and [auditwheel](https://github.com/pypa/auditwheel).
 
+Available for download on [pypi](https://pypi.org/project/crockford32/1.0.2/).
 
 ## How to build (version 1.0.2)
 
