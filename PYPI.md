@@ -1,17 +1,3 @@
-Metadata-Version: 2.1
-Name: crockford32
-Version: 1.0.1
-Summary: An implementation of Crockford's Base32 encoding for resource identifiers
-Home-page: https://github.com/pat-jpnk/crockford32
-Author: Patrick Japink
-Author-email: jpnk.pat@gmail.com
-License: MIT
-Requires-Python: >=3.7
-Description-Content-Type: text/markdown
-License-File: LICENSE
-Provides-Extra: test
-Requires-Dist: pytest; extra == "test"
-
 ## Description 
 
 An implementation of Crockford's Base32 encoding, including checksums. Intended for use on unique resource identifiers in APIs.

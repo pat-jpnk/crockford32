@@ -1,5 +1,6 @@
 LICENSE
 MANIFEST.in
+PYPI.md
 README.md
 pyproject.toml
 setup.py

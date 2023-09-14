@@ -1,1 +1,3 @@
-include crockford32/src/Crockford32.h
+include src/Crockford32.h
+include PYPI.md
+include LICENSE
