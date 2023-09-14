@@ -14,15 +14,9 @@ import crockford32 as cr32
 encode_input_one = "Hello"
 encode_input_two = "Tree"
 
-try:
-	a = cr32.encode(encode_input_one)
-except ValueError:
-	pass    
+a = cr32.encode(encode_input_one)
 
-try:
-	b = cr32.encode(encode_input_two, True)
-except ValueError:
-	pass    
+b = cr32.encode(encode_input_two, True)
 
 ```
 
